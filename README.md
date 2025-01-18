@@ -21,10 +21,10 @@ For each algorithm, there is a dedicated Go file (e.g., `bubble_sort.go`) and a 
 |--------|-----------------|
 | [X]    | **Bubble Sort**    |
 | [X]    | **Selection Sort** |
-| [ ]    | **Insertion Sort** |
-| [ ]    | **Merge Sort**     |
-| [ ]    | **Quick Sort**     |
-| [ ]    | **Heap Sort**      |
+| [X]    | **Insertion Sort** |
+| [X]    | **Merge Sort**     |
+| [X]    | **Quick Sort**     |
+| [X]    | **Heap Sort**      |
 
 ---
 
@@ -32,8 +32,8 @@ For each algorithm, there is a dedicated Go file (e.g., `bubble_sort.go`) and a 
 
 | Status | Algorithm               |
 |--------|-------------------------|
-| [ ]    | **Linear Search**       |
-| [ ]    | **Binary Search**       |
+| [X]    | **Linear Search**       |
+| [X]    | **Binary Search**       |
 | [ ]    | **Interpolation Search**|
 | [ ]    | **Jump Search**         |
 | [ ]    | **Exponential Search**  |

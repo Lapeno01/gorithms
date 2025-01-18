@@ -40,3 +40,55 @@ func TestSelectionSort(t *testing.T) {
 		}
 	}
 }
+
+func TestInsertionSort(t *testing.T) {
+	for _, tt := range sortingTests {
+		got := make([]int, len(tt.input))
+		copy(got, tt.input)
+
+		InsertionSort(got)
+
+		if !reflect.DeepEqual(got, tt.want) {
+			t.Errorf("SelectionSort(%v) = %v, want %v", tt.input, got, tt.want)
+		}
+	}
+}
+
+func TestMergeSort(t *testing.T) {
+	for _, tt := range sortingTests {
+		got := make([]int, len(tt.input))
+		copy(got, tt.input)
+
+		MergeSort(got)
+
+		if !reflect.DeepEqual(got, tt.want) {
+			t.Errorf("SelectionSort(%v) = %v, want %v", tt.input, got, tt.want)
+		}
+	}
+}
+
+func TestQuickSort(t *testing.T) {
+	for _, tt := range sortingTests {
+		got := make([]int, len(tt.input))
+		copy(got, tt.input)
+
+		QuickSort(got)
+
+		if !reflect.DeepEqual(got, tt.want) {
+			t.Errorf("SelectionSort(%v) = %v, want %v", tt.input, got, tt.want)
+		}
+	}
+}
+
+func TestHeapSort(t *testing.T) {
+	for _, tt := range sortingTests {
+		got := make([]int, len(tt.input))
+		copy(got, tt.input)
+
+		HeapSort(got)
+
+		if !reflect.DeepEqual(got, tt.want) {
+			t.Errorf("SelectionSort(%v) = %v, want %v", tt.input, got, tt.want)
+		}
+	}
+}
