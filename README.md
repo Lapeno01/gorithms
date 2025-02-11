@@ -72,7 +72,7 @@ For each algorithm, there is a dedicated Go file (e.g., `bubble_sort.go`) and a 
 | Status | Algorithm / Topic                  |
 |--------|------------------------------------|
 | [ ]    | **Binary Tree Traversals**         |
-| [ ]    | **Binary Search Tree (BST)**       |
+| [X]    | **Binary Search Tree (BST)**       |
 | [ ]    | **AVL Tree**                       |
 | [ ]    | **Red-Black Tree**                 |
 | [ ]    | **Segment Tree**                   |
