@@ -31,13 +31,13 @@ For each algorithm, there is a dedicated Go file (e.g., `bubble_sort.go`) and a 
 ## Searching
 
 | Status | Algorithm               |
-|--------|-------------------------|
-| [X]    | **Linear Search**       |
-| [X]    | **Binary Search**       |
-| [ ]    | **Interpolation Search**|
-| [ ]    | **Jump Search**         |
-| [ ]    | **Exponential Search**  |
-| [ ]    | **Ternary Search**      |
+|----|-------------------------|
+| [X] | **Linear Search**       |
+| [X] | **Binary Search**       |
+| [X] | **Interpolation Search**|
+| [X] | **Jump Search**         |
+| [X] | **Exponential Search**  |
+| [X] | **Ternary Search**      |
 
 ---
 

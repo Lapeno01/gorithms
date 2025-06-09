@@ -18,8 +18,12 @@ type searchFunc func([]int, int) int
 
 func TestSearching(t *testing.T) {
 	searchAlgorithms := map[string]searchFunc{
-		"BinarySearch": BinarySearch,
-		"LinearSearch": LinearSearch,
+		"BinarySearch":        BinarySearch,
+		"LinearSearch":        LinearSearch,
+		"InterpolationSearch": InterpolationSearch,
+		"JumpSearch":          JumpSearch,
+		"ExponentialSearch":   ExponentialSearch,
+		"TernarySearch":       TernarySearch,
 	}
 
 	for name, function := range searchAlgorithms {
