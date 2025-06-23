@@ -1,4 +1,4 @@
-package datastructures
+package linkedlist_single
 
 import (
 	"reflect"

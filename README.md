@@ -48,7 +48,7 @@ For each algorithm, there is a dedicated Go file (e.g., `bubble_sort.go`) and a 
 | [ ]    | **Stack**                    |
 | [ ]    | **Queue**                    |
 | [X]    | **Linked List (Singly)**     |
-| [ ]    | **Linked List (Doubly)**     |
+| [X]    | **Linked List (Doubly)**     |
 | [ ]    | **Hash Table**               |
 | [ ]    | **Set** (using Go’s map)     |
 
