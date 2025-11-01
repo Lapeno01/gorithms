@@ -45,7 +45,7 @@ For each algorithm, there is a dedicated Go file (e.g., `bubble_sort.go`) and a 
 
 | Status | Data Structure               |
 |--------|------------------------------|
-| [ ]    | **Stack**                    |
+| [X]    | **Stack**                    |
 | [ ]    | **Queue**                    |
 | [X]    | **Linked List (Singly)**     |
 | [X]    | **Linked List (Doubly)**     |
